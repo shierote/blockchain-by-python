@@ -27,6 +27,7 @@
         "keras",
         "millisec",
         "ncols",
+        "neighbours",
         "nrows",
         "relu",
         "trigno",

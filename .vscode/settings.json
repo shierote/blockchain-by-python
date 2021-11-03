@@ -1,0 +1,38 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E111, E114, E402, E501"
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--indent-size=4",
+        "--ignore=E111, E114, E402, E501"
+    ],
+    "python.pythonPath": "/usr/bin/python3",
+    "python.languageServer": "Pylance",
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+    },
+    "cSpell.words": [
+        "annot",
+        "asarray",
+        "axhline",
+        "axvline",
+        "delsys",
+        "fftfreq",
+        "ifft",
+        "imblearn",
+        "keras",
+        "millisec",
+        "ncols",
+        "nrows",
+        "relu",
+        "trigno",
+        "xmax",
+        "xmin",
+        "ymax",
+        "ymin"
+    ],
+}

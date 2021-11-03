@@ -1,0 +1,8 @@
+version: "3"
+services:
+  dev:
+    init: true
+    build: .
+    volumes:
+      - ./:/workspace:cached
+    command: sleep infinity
